@@ -12,12 +12,12 @@ font-family: 'Lexend', sans-serif;
 */
 
 body {
-background color: #ffffff;
+background-color: #ffffff;
 font-family: 'Lexend', sans-serif;
 font-size: 16px;
 font-weight: 400;
 line-height: 1.6;
-color: #000000
+color: #000000;
 }
 
 img{

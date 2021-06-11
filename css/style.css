@@ -1,0 +1,100 @@
+/*
+Colors used:
+Color 1 (Black): #000000;
+Color 2 (White): #ffffff;
+Color 3 (Red): #D83C29;
+Color 4 (Purple): #5E51A3;
+Color 5 (Dk. Purple): #7C0BA4;
+Color 5 (Lt. Purple): #664CF4;
+Color 6 (Gray): #9c9c9c;
+font-family: 'Abril Fatface', cursive;
+font-family: 'Lexend', sans-serif;
+*/
+
+body {
+background color: #ffffff;
+font-family: 'Lexend', sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 1.6;
+color: #000000
+}
+
+img{
+  width: 100%;
+}
+
+h1, h2, h3, h4 {
+  line-height: 1.4;
+}
+
+h1 {
+  font-size: 2.25em;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 2em;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 1.5em;
+  font-weight: 500;
+}
+
+h4 {
+  font-size: 1.25em;
+  font-weight: 500;
+}
+
+a {
+  color: #5E51A3;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #7C0BA4;
+}
+
+a:hover,
+a:focus
+ {
+  color: #664CF4;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #5E51A3;
+}
+
+.button {
+  display: inline-block;
+  background-color: #5E51A3;
+  color: #ffffff;
+  font-weight: 400;
+  padding: 10px;
+  border-radius: 3px;
+  transition: 0.2s opacity;
+}
+
+.button:hover {
+  opacity: 0.8;
+  text-decoration: none;
+}
+
+.button:visited {
+  color: #ffffff
+}
+
+.button.contact {
+  background-color: transparent;
+  color: #5E51A3;
+  text-transform: uppercase;
+  border: 2px solid #5E51A3;
+}
+
+.button.contact:hover {
+  background-color: #5E51A3;
+  color: #ffffff;
+}

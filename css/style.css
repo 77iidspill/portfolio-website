@@ -258,7 +258,7 @@ nav > ul > li > a {
 }
 
 @keyframes cloud-move {
-  from {transform: translate (0,50px);}
+  from {transform: translate(0,50px);}
   to {transform: translate (200px,50px);}}
 
 .cloud-front {
@@ -270,7 +270,7 @@ nav > ul > li > a {
 }
 
   @keyframes cloud-move-reverse {
-    from {transform: translate (446px,48px);}
+    from {transform: translate(446px,48px);}
     to {transform: translate (100px,48px);}}
 
 .cloud-back {

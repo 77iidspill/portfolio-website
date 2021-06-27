@@ -188,25 +188,21 @@ nav > ul > li > a {
   display: none;
 }
 
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
+
+.navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 2px;
+  font-size: 20px;
+  padding-right: 0;
+}
+
 .navtoggle.responsive li  {
   display: block;
 }
-
-.navtoggle.responsive nav {
-  padding: 24px 0 0;
-}
-.navtoggle.responsive li  {
-  display: block;
-  padding: 10px 0;
-  border-top: 1px solid rgba(255,127,80,0.5);
-}
-
-.navtoggle.responsive li:last-child  {
-  padding: 0 0 10px;
-}
-
-
-
 
  #hero {
    text-align: center;
@@ -240,7 +236,7 @@ nav > ul > li > a {
    display: table;
  }
 
- @media only screen and (min-width: 640px) {
+ @media only screen and (min-width: 641px) {
   header {
     text-align: unset;
     padding: 20px 0 13px;}
@@ -261,27 +257,16 @@ nav > ul > li > a {
     }
 
   nav > ul {
-      margin: 1em 0;
-    }
+    margin: 1em 0;
+  }  
 
-    .navtoggle li:not(:last-child) {
+  .navtoggle li:not(:last-child) {
       display: inline-block;
     }
 
     .navtoggle li:last-child {
       display: none;
     }
-
-    .navtoggle, .navtoggle.responsive {
-      position: relative; }
-
-    .navtoggle li .icon {
-        position: absolute;
-        right: 0;
-        top: 2px;
-        font-size: 20px;
-        padding-right: 0
-      }
 
     [class*="col-"] {
       float: left;

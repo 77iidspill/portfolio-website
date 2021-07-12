@@ -117,18 +117,12 @@ a:active {
 
 .container_project_text {
   max-width: 850px;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 40px 20px;
   margin-right: auto;
 }
 
 .container_project {
-  padding-top: 40px;
-  padding-bottom: 40px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 40px 20px;
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
@@ -317,48 +311,49 @@ footer {
   }
 }
 
-@media only screen and (min-width: 1440px)
+@media only screen and (min-width: 1440px) {
   .berlin-illustration {
-  width: 100%;
-  max-width: 100%;
-  height: auto;
-}
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
 
-@keyframes color-change {
-  from { fill: #edc655; }
-  to { fill: #f76414; }
-}
+  @keyframes color-change {
+    from { fill: #edc655; }
+    to { fill: #f76414; }
+  }
 
-.sun {
-  animation-duration: 4s;
-  animation-name: color-change;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-  animation-timing-function: linear;
-}
+  .sun {
+    animation-duration: 4s;
+    animation-name: color-change;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+  }
 
-@keyframes cloud-move {
-  from { transform: translate(0, 50px); }
-  to { transform: translate(200px, 50px); }
-}
+  @keyframes cloud-move {
+    from { transform: translate(0, 50px); }
+    to { transform: translate(200px, 50px); }
+  }
 
-.cloud-front {
-  animation-duration: 30s;
-  animation-name: cloud-move;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-  animation-timing-function: linear;
-}
+  .cloud-front {
+    animation-duration: 30s;
+    animation-name: cloud-move;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+  }
 
-@keyframes cloud-move-reverse {
-  from { transform: translate(446px, 48px); }
-  to { transform: translate(100px, 48px); }
-}
+  @keyframes cloud-move-reverse {
+    from { transform: translate(446px, 48px); }
+    to { transform: translate(100px, 48px); }
+  }
 
-.cloud-back {
-  animation-duration: 34s;
-  animation-name: cloud-move-reverse;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-  animation-timing-function: linear;
+  .cloud-back {
+    animation-duration: 34s;
+    animation-name: cloud-move-reverse;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+  }
 }
